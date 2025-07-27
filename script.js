@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Create a temporary link element
             const link = document.createElement('a');
             link.href = resumePath;
-            link.download = 'Mahalakshmi_Resume.pdf';
+            link.download = 'Resume.pdf';
             
             // Append to body, click it to trigger download, then remove
             document.body.appendChild(link);
